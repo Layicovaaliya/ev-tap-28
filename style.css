@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.container{
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 300px 300px;
+    gap: 30px;
+    margin: 20px;
+}
+.sim{
+    margin-top: 30px;
+    width: 5vw;
+}
+.visa{
+    margin-top: 30px;
+    width: 7vw;
+    float: right;
+    margin-right: 40px;
+}
+.master{
+    width: 7vw;
+    float: right;
+    margin-right: 40px;
+}
+.tinkoff{
+    width: 7vw;
+    float: right;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+.vtb{
+    width: 7vw;
+    float: right;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+.sberbank{
+    width: 13vw;
+    float: right;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+.item1{
+    background-color: rgb(200, 140, 250);
+    border-radius: 20px;
+}
+.item3{
+    background-color: lightgreen;
+    border-radius: 20px;
+}
+.item2{
+    background-color: lightgray;
+    border-radius: 20px;
+}
+.item4{
+    background-color: lightblue;
+    border-radius: 20px;
+}
+p{
+    font-size: 35px;
+    font-family: "Montserrat", sans-serif;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+    float: left;
+    margin-top: 20px;
+    font-size: 30px;
+}
